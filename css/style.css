@@ -477,6 +477,47 @@ About css start
     margin: 29px 0 67px 0;
 
 }
+.About .right-box .Feedback {
+    display: flex;
+}
+.About .right-box .photo {
+    position: relative;
+}
+.About .right-box .img1 {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    border-radius: 50%;
+}
+.About .right-box .img2 {
+    position: absolute;
+    top: -10px;
+    left: 62px;
+    border-radius: 50%;
+}
+.About .right-box .img3 {
+    position: absolute;
+    top: -10px;
+    left: 133px;
+    border-radius: 50%;
+}
+.About .right-box .revew {
+    margin-left: 270px;
+}
+.About .right-box .revew h2{
+    font-size: 26px;
+    font-weight: 600;
+}
+.About .right-box .revew div{
+    font-size: 24px;
+    font-weight: 600;
+}
+.About .right-box .revew .star{
+    color: #ffe605;
+}
+.About .right-box .revew span{
+    color: #807E7E;
+}
 
 /* ================
 About css end
