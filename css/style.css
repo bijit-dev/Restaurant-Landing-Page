@@ -381,19 +381,32 @@ dishes css start
     color: var(--w);
     background: var(--green);
 }
-
+.dishes .box2{
+    display: flex;
+    column-gap: 40px;
+}
 .dishes .card {
     margin-top: 63px;
     font-family: var(--inter);
     font-weight: 600;
-    /* width: 446px;
-    height: 523px; */
+    width: 446px;
+    height: 523px;
     border-radius: 40px;
     padding: 39px 46px 39px 44px;
     background: var(--w);
-    box-shadow: -9px 33px 96px #9d9d9d8b, -33px -33px 84px #ffffff;
+    box-shadow: -9px 33px 67px #9d9d9d8b, -33px -33px 84px #ffffff;
+    position: relative;
 }
 
+.dishes .card .right-icon {
+    padding: 26px 32px;
+    border-radius: 0 58%;
+    color: var(--w);
+    background: var(--green);
+    position: absolute;
+    top: 0;
+    right: 0;
+}
 .dishes .card .img {
     width: 256px;
     height: 256px;
@@ -409,24 +422,18 @@ dishes css start
     color: var(--gray);
     margin: 19px 0 28px 0;
 }
-
-.dishes .card .box2 {
-    display: flex;
-    column-gap: 180px;
-}
 .dishes .card .price {
     font-size: 30px;
-    
 }
 
 .dishes .card .price span {
     font-size: 24px;
     color: #ff6868;
 }
-.dishes .card .box2 .star {
+.dishes .card .box .star {
     font-size: 24px;
 }
-.dishes .card .box2 .star span {
+.dishes .card .box .star span {
     color: #ffe605;
 }
 
