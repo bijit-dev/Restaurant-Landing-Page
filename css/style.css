@@ -7,10 +7,9 @@
 :root {
     --inter: "Inter", sans-serif;
     --Poppins: "Poppins", sans-serif;
-    --green: #39DB4A;
-    --gray: #4A4A4A;
+    --green: #39db4a;
+    --gray: #4a4a4a;
     --w: #ffff;
-
 }
 
 /* ================
@@ -39,7 +38,8 @@ ol {
     font-size: 20px;
     font-weight: 700;
     letter-spacing: 0.175em;
-    color: #FF6868;
+    color: #ff6868;
+    margin-bottom: 45px;
 }
 
 .title h1 {
@@ -202,7 +202,6 @@ banner css start
     font-size: 26px;
     font-weight: 600;
     line-height: 31.47px;
-
 }
 
 .banner .left-box .buttom a {
@@ -215,7 +214,6 @@ banner css start
     justify-content: center;
     align-items: center;
     box-shadow: rgba(160, 164, 160, 0.159) 0px 7px 7px 0px;
-
 }
 
 .banner .left-box .buttom a:hover {
@@ -237,7 +235,7 @@ banner css start
 .banner .right-box .comment {
     font-size: 20px;
     font-weight: 600;
-    color: #FF6868;
+    color: #ff6868;
     background: var(--w);
     text-align: center;
     padding: 18px 27px;
@@ -269,7 +267,7 @@ banner css start
 
 .banner .right-box .revew1 ul {
     display: flex;
-    color: #FFE605;
+    color: #ffe605;
     margin: 10px 0;
 }
 
@@ -280,7 +278,7 @@ banner css start
 
 .banner .right-box .revew1 .price span {
     font-size: 18px;
-    color: #FF6868;
+    color: #ff6868;
 }
 
 /* ================
@@ -290,9 +288,10 @@ banner css end
 /* ================
 favorite css start
 =================== */
-.favorite{
+.favorite {
     margin-bottom: 150px;
 }
+
 .favorite .title {
     text-align: center;
 }
@@ -302,11 +301,13 @@ favorite css start
 }
 
 .favorite .title h1 {
-    margin: 29px auto 78px;
+    margin: 0 auto 78px;
 }
-.favorite .box{
+
+.favorite .box {
     justify-content: space-between;
 }
+
 .favorite .card {
     width: 300px;
     height: 326px;
@@ -318,7 +319,7 @@ favorite css start
     width: 155px;
     height: 155px;
     border-radius: 50%;
-    background: #C1F1C6;
+    background: #c1f1c6;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -332,6 +333,7 @@ favorite css start
     font-weight: 600;
     text-align: center;
 }
+
 .favorite .card p {
     width: auto;
     font-family: var(--inter);
@@ -344,4 +346,90 @@ favorite css start
 
 /* ================
 favorite css end
+=================== */
+/* ================
+dishes css start
+=================== */
+.dishes .box {
+    justify-content: space-between;
+}
+
+.dishes .box .recent {
+    display: flex;
+    column-gap: 50px;
+    margin: auto 0 0;
+}
+
+.dishes .recent .btn-left {
+    padding: 25px 33px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #6f6e6e;
+    background: #efefef;
+}
+
+.dishes .recent .btn-right {
+    padding: 25px 33px;
+    border-radius: 50%;
+    font-size: 24px;
+    color: #6f6e6e;
+    background: #efefef;
+}
+
+.dishes .recent .btn-left:hover,
+.dishes .recent .btn-right:hover {
+    color: var(--w);
+    background: var(--green);
+}
+
+.dishes .card {
+    margin-top: 63px;
+    font-family: var(--inter);
+    font-weight: 600;
+    /* width: 446px;
+    height: 523px; */
+    border-radius: 40px;
+    padding: 39px 46px 39px 44px;
+    background: var(--w);
+    box-shadow: -9px 33px 96px #9d9d9d8b, -33px -33px 84px #ffffff;
+}
+
+.dishes .card .img {
+    width: 256px;
+    height: 256px;
+    padding-left: 32px;
+}
+
+.dishes .card h2 {
+    margin-top: 37px;
+    font-size: 30px;
+}
+.dishes .card p{
+    font-size: 22px;
+    color: var(--gray);
+    margin: 19px 0 28px 0;
+}
+
+.dishes .card .box2 {
+    display: flex;
+    column-gap: 180px;
+}
+.dishes .card .price {
+    font-size: 30px;
+    
+}
+
+.dishes .card .price span {
+    font-size: 24px;
+    color: #ff6868;
+}
+.dishes .card .box2 .star {
+    font-size: 24px;
+}
+.dishes .card .box2 .star span {
+    color: #ffe605;
+}
+
+/* ================
+dishes css end
 =================== */
