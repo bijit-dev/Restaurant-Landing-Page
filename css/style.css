@@ -34,6 +34,21 @@ ol {
     list-style: none;
 }
 
+.title p {
+    font-family: var(--inter);
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.175em;
+    color: #FF6868;
+}
+
+.title h1 {
+    font-family: var(--inter);
+    font-size: 60px;
+    font-weight: 700;
+    width: 580px;
+}
+
 /* ================
 common css end
 =================== */
@@ -138,20 +153,21 @@ banner css start
 .banner {
     margin: 0px 0 100px 0;
 }
+
 .banner .left-box {
     width: 50%;
     margin: auto;
     font-family: var(--inter);
 }
 
-.banner .left-box .title {
+.banner .left-box h1 {
     font-weight: 800;
     font-size: 62px;
     line-height: 90px;
     width: 596px;
 }
 
-.banner .left-box .title span {
+.banner .left-box h1 span {
     color: var(--green);
 }
 
@@ -188,7 +204,8 @@ banner css start
     line-height: 31.47px;
 
 }
-.banner .left-box .buttom a{
+
+.banner .left-box .buttom a {
     width: 80px;
     height: 80px;
     border-radius: 50%;
@@ -200,7 +217,8 @@ banner css start
     box-shadow: rgba(160, 164, 160, 0.159) 0px 7px 7px 0px;
 
 }
-.banner .left-box .buttom a:hover{
+
+.banner .left-box .buttom a:hover {
     font-size: 36px;
     box-shadow: rgba(160, 164, 160, 0.563) 0px 7px 20px 0px;
 }
@@ -230,6 +248,7 @@ banner css start
     box-shadow: rgba(160, 164, 160, 0.3) 0px 7px 18px 0px;
     opacity: 1;
 }
+
 .banner .right-box .revew {
     display: flex;
     column-gap: 28px;
@@ -237,7 +256,8 @@ banner css start
     bottom: 55px;
     left: 0;
 }
-.banner .right-box .revew1{
+
+.banner .right-box .revew1 {
     display: flex;
     column-gap: 28px;
     background: var(--w);
@@ -246,20 +266,82 @@ banner css start
     border-radius: 20px;
     box-shadow: rgba(160, 164, 160, 0.3) 0px 7px 18px 0px;
 }
-.banner .right-box .revew1 ul{
+
+.banner .right-box .revew1 ul {
     display: flex;
     color: #FFE605;
     margin: 10px 0;
 }
-.banner .right-box .revew1 .price{
+
+.banner .right-box .revew1 .price {
     font-size: 24px;
     font-weight: 600;
 }
-.banner .right-box .revew1 .price span{
+
+.banner .right-box .revew1 .price span {
     font-size: 18px;
     color: #FF6868;
 }
 
 /* ================
 banner css end
+=================== */
+
+/* ================
+favorite css start
+=================== */
+.favorite{
+    margin-bottom: 150px;
+}
+.favorite .title {
+    text-align: center;
+}
+
+.favorite .title {
+    text-align: center;
+}
+
+.favorite .title h1 {
+    margin: 29px auto 78px;
+}
+.favorite .box{
+    justify-content: space-between;
+}
+.favorite .card {
+    width: 300px;
+    height: 326px;
+    border-radius: 50px;
+    box-shadow: -9px 33px 96px #9d9d9d8b, -33px -33px 84px #ffffff;
+}
+
+.favorite .card div {
+    width: 155px;
+    height: 155px;
+    border-radius: 50%;
+    background: #C1F1C6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 39px auto 13px;
+}
+
+.favorite .card h2 {
+    width: auto;
+    font-family: var(--inter);
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+}
+.favorite .card p {
+    width: auto;
+    font-family: var(--inter);
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 45px;
+}
+
+/* ================
+favorite css end
 =================== */
