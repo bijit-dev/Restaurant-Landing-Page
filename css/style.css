@@ -412,6 +412,16 @@ dishes css start
     top: 0;
     right: 0;
 }
+.dishes .card .right-icon2 {
+    padding: 26px 32px;
+    border-radius: 0 58%;
+    color: var(--w);
+    background: var(--green);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+}
 
 .dishes .card .img {
     width: 256px;
@@ -623,6 +633,7 @@ footer css end
 =================== */
 footer {
     font-family: var(--inter);
+    margin-bottom: 50px;
 }
 footer .box{
     justify-content: space-between;
@@ -655,20 +666,21 @@ footer .div2 a{
 footer .copy{
     position: relative;
 }
-footer .copy .icon{
+footer .copy .icon {
     position: absolute;
-    top: 0;
+    top: -16px;
     left: 0;
     display: flex;
     gap: 18px;
 }
-footer .copy .icon span{
+
+footer .copy .icon a{
     color: var(--f);
     background: #dcf3df;
     padding: 12px;
     border-radius: 50%;
 }
-footer .copy .icon span:hover{
+footer .copy .icon a:hover{
     color: var(--w);
     background: var(--green);
 }
