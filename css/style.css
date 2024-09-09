@@ -22,6 +22,7 @@ common css start
 
 .box {
     display: flex;
+    flex-wrap: wrap;
 }
 
 a {
@@ -347,6 +348,7 @@ favorite css start
 /* ================
 favorite css end
 =================== */
+
 /* ================
 dishes css start
 =================== */
@@ -477,45 +479,55 @@ About css start
     margin: 29px 0 67px 0;
 
 }
+
 .About .right-box .Feedback {
     display: flex;
 }
+
 .About .right-box .photo {
     position: relative;
 }
+
 .About .right-box .img1 {
     position: absolute;
     top: -10px;
     left: 0;
     border-radius: 50%;
 }
+
 .About .right-box .img2 {
     position: absolute;
     top: -10px;
     left: 62px;
     border-radius: 50%;
 }
+
 .About .right-box .img3 {
     position: absolute;
     top: -10px;
     left: 133px;
     border-radius: 50%;
 }
+
 .About .right-box .revew {
     margin-left: 270px;
 }
-.About .right-box .revew h2{
+
+.About .right-box .revew h2 {
     font-size: 26px;
     font-weight: 600;
 }
-.About .right-box .revew div{
+
+.About .right-box .revew div {
     font-size: 24px;
     font-weight: 600;
 }
-.About .right-box .revew .star{
+
+.About .right-box .revew .star {
     color: #ffe605;
 }
-.About .right-box .revew span{
+
+.About .right-box .revew span {
     color: #807E7E;
 }
 
@@ -525,15 +537,19 @@ About css end
 /* ================
 Services css end
 =================== */
-.Services{
+.Services {
     margin-bottom: 100px;
+    font-family: var(--inter);
 }
+
 .Services .left-box {
     width: 50%;
 }
-.Services .left-box .title h1{
+
+.Services .left-box .title h1 {
     width: 650px;
 }
+
 .Services .left-box h4 {
     width: 540px;
     font-size: 26px;
@@ -541,6 +557,7 @@ Services css end
     line-height: 35.6px;
     margin: 50px 0;
 }
+
 .Services .left-box .btn {
     width: 196px;
     padding: 24px;
@@ -552,6 +569,7 @@ Services css end
     border-radius: 40px;
     border: 0;
 }
+
 .Services .left-box .btn:hover {
     box-shadow: rgba(37, 247, 58, 0.703) 0px 7px 20px 0px;
 }
@@ -559,6 +577,43 @@ Services css end
 .Services .right-box {
     width: 50%;
 }
+.Services .right-box .box{
+    gap: 20px;
+    justify-content: right;
+}
+.Services .right-box .card {
+    width: 277px;
+    height: 297px;
+    border-radius: 30px;
+    color: #5FE26C;
+    background: var(--w);
+    box-shadow: 0px 20px 56px #9d9d9d8b, -33px -33px 84px #ffffff;
+}
+
+.Services .right-box .card div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 39px auto 13px;
+}
+
+.Services .right-box h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.Services .right-box p {
+    width: 200px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24.2px;
+    text-align: center;
+    margin: 10px auto;
+}
+
+
+
 /* ================
 Services css end
 =================== */
