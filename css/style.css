@@ -10,6 +10,7 @@
     --green: #39db4a;
     --gray: #4a4a4a;
     --w: #ffff;
+    --f: #555555;
 }
 
 /* ================
@@ -30,7 +31,7 @@ a {
 }
 
 ul,
-ol {
+ol, li{
     list-style: none;
 }
 
@@ -577,10 +578,12 @@ Services css end
 .Services .right-box {
     width: 50%;
 }
-.Services .right-box .box{
+
+.Services .right-box .box {
     gap: 20px;
     justify-content: right;
 }
+
 .Services .right-box .card {
     width: 277px;
     height: 297px;
@@ -612,8 +615,71 @@ Services css end
     margin: 10px auto;
 }
 
-
-
 /* ================
 Services css end
+=================== */
+/* ================
+footer css end
+=================== */
+footer {
+    font-family: var(--inter);
+}
+footer .box{
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+footer .div1 h4 {
+    width: 300px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36.13px;
+    color: var(--f);
+    padding-top: 45px;
+}
+footer .div2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+footer .div2 h2 {
+    font-size: 26px;
+    font-weight: 600;
+    padding-bottom: 5px;
+}
+footer .div2 a{
+    font-size: 24px;
+    font-weight: 500;
+    color: var(--f);
+}
+footer .copy{
+    position: relative;
+}
+footer .copy .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    gap: 18px;
+}
+footer .copy .icon span{
+    color: var(--f);
+    background: #dcf3df;
+    padding: 12px;
+    border-radius: 50%;
+}
+footer .copy .icon span:hover{
+    color: var(--w);
+    background: var(--green);
+}
+
+footer .copy p{
+    width: 467px;
+    margin: 0 auto;
+    color: var(--f);
+    font-weight: 500;
+    font-size: 22px;
+}
+/* ================
+footer css end
 =================== */
